@@ -5,7 +5,7 @@
 typedef struct
 {
 	unsigned long timer_val;
-} __attribute__((packed)) keyled_data; // 132바이트 구조체
+} __attribute__((packed)) keyled_data;
 
 #define TIMER_START			 	_IO(TIMER_MAGIC, 0) 
 #define TIMER_STOP			 	_IO(TIMER_MAGIC, 1)
